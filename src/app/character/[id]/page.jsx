@@ -42,13 +42,13 @@ export default function CharacterInfo({ params }) {
           Back
         </Button>
 
-        <Card className='flex' sx={{ minWidth: 600, maxWidth: 600 }}>
+        <Card className='sm:flex mt-5 mx-10'>
           {character.image && (
             <Image
               src={character.image}
               alt='Imagen de [nombre del personaje]'
               width={300}
-              height={300}
+              height={200}
               className='object-cover'
             />
           )}
