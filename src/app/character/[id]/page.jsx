@@ -47,7 +47,7 @@ export default function CharacterInfo({ params }) {
             <Image
               src={character.image}
               alt='Imagen de [nombre del personaje]'
-              width={300}
+              width={350}
               height={200}
               className='object-cover'
             />

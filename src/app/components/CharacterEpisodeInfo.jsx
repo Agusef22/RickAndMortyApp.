@@ -26,7 +26,7 @@ export default function CharacterEpisodeInfo({ character }) {
   }, [character.episode])
 
   return (
-    <div className='ml-5 mt-5'>
+    <div className='ml-5 my-10'>
       <Box sx={{ maxWidth: { xs: 320, sm: 680 }, bgcolor: 'background.paper' }}>
         <Tabs
           value={value}
